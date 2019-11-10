@@ -1,0 +1,349 @@
+*{
+	font-family: 'PT Sans';
+}
+.container1{
+	background: rgb(245, 98, 98);
+	padding-top: 1rem;
+}
+.container1 p{
+	color: rgb(250, 250, 250);
+}
+.container1 .p11{
+	margin-bottom: -0.2rem;
+	font-size: 1.2rem;
+}
+@media (min-width: 768px) {
+	.container1 .p11{
+	margin-bottom: -0.5rem;
+	font-size: 1.8rem;
+	}
+}
+.container1 .p12{
+	font-size: 0.8rem;
+}
+.container1 img{
+	height: 90%;
+	width: auto;
+}
+.container1 .navigate{
+	padding-top: 1rem;
+}
+.container1 .nav-link{
+	color: rgb(250, 250, 250);
+}
+.container1 .nav-link:hover{
+	background-color: rgb(35, 35, 36);
+	color: rgb(250, 250, 250);
+}
+.container2{
+	background: rgb(235, 79, 78);
+	padding: 1rem;
+}
+.container2 p{
+	color: rgb(250, 250, 250);
+}
+.container2 .p21{
+	font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+	.container2 .p21{
+		font-size: 3rem;
+	}
+}
+.container2 img{
+	width: 80%;
+	height: 80%;
+}
+.container2 i{
+	font-size: 2rem;
+}
+.d23, .d25{
+	padding: 0 7% 0 7%;
+}
+.arrowl{
+	width: 1.5rem;
+	height: 1.5rem;
+	color: transparent;
+	border-top: 1px solid rgb(255, 158, 156);
+	border-left: 1px solid rgb(255, 158, 156);
+	transform: rotate(-45deg);
+}
+.arrowr{
+	width: 1.5rem;
+	height: 1.5rem;
+	color: transparent;
+	border-top: 1px solid rgb(255, 158, 156);
+	border-right: 1px solid rgb(255, 158, 156);
+	transform: rotate(45deg);
+}
+@media (min-width: 768px) {
+	.arrowl, .arrowr{
+		width: 2.5rem;
+		height: 2.5rem;
+	}
+}
+.container3{
+	background-color: rgb(35, 35, 36);
+	padding-top: 1rem;
+}
+.d31{
+	padding-bottom: 1rem;
+}
+.d31>div:first-child{
+	color: rgb(250, 250, 250);
+}
+.d31>div:nth-child(3){
+	color: rgb(216, 73, 72);
+}
+.container3 .card{
+	background-color: rgb(35, 35, 36);
+}
+.container3 .card img{
+	width: 6rem;
+	height: 6rem;
+	border-radius: 50%;
+}
+.container3 .card .card-title{
+	color: rgb(250, 250, 250);
+}
+.container3 .card .card-text{
+	color: rgb(216, 73, 72);
+}
+.container4{
+	background-color: rgb(108, 195, 114);
+	padding: 1rem;
+}
+.d41>div:first-child{
+	color: rgb(250, 250, 250);
+}
+.d41>div:nth-child(3){
+	color: rgb(35, 35, 36);
+}
+.container4 .row .card{
+	padding-top: 1rem;
+	margin: 0.5rem;
+}
+.container4 .card-img-top{
+	padding: 1rem;
+}
+.container4 .card-body{
+	padding: 1rem 0rem 1rem 0rem;	
+}
+.container4 .card-footer{
+	padding: 0.5rem;	
+}
+.container4 .card img{
+	width: 9rem;
+	height: 9rem;
+	border-radius: 50%;
+	border: solid 0.5rem;
+	border-color: rgb(108, 195, 114);
+}
+.container4 .card-title{
+	color: rgb(82, 161, 86);
+	font-size: 1.4rem;
+}
+.container4 .card-text{
+	color: rgb(232, 109, 100);
+}
+.container4 .btn{
+ 	background-color: rgb(108, 195, 114);
+ 	color: rgb(250, 250, 250);
+ 	font-size: 1.5rem;
+ 	padding-left: 1.5rem;
+}
+.container4 .btn i{
+ 	margin-right: 1.25rem;
+}
+.container10{
+	height: 32rem;
+	background-color: rgb(240, 240, 240);
+	padding: 1rem;
+}
+.d101>div:first-child{
+	color: rgb(97, 97, 97);
+}
+.d101>div:nth-child(3){
+	color: rgb(97, 175, 102);
+}
+.container10 .card{
+	margin: 1rem;
+}
+.d103{
+	height: 9rem;
+	width: 10rem;
+	font-size: 1.6rem;
+	color: rgb(108, 195, 114);
+	margin-top: 1rem;
+}
+.container10 .card-body{
+	background-color: rgb(240, 240, 240);
+	color: rgb(35, 35, 36);
+	padding: 1rem 0.25rem 1rem 0.25rem;
+}
+.d107{
+	position: relative;
+}
+.d108{
+	height: 2rem;
+	/*background-color: rgb(200, 200, 200);*/
+	position: absolute;
+	top: -7rem;
+}
+.d108 span{
+	font-size: 6rem;
+}
+.sp101{
+	color: rgb(101, 101, 101);
+}
+.sp102{
+	color: rgb(108, 195, 114);
+	padding-left: 0.4rem;
+}
+.container5{
+	height: 19rem;
+	font-size: 1rem;
+}
+.c511, .c522, .c533 {
+	position: absolute;
+	left: 50%;
+}
+.card.c51{
+	position: absolute;
+	z-index: 2;
+	top: -110px;
+}
+.card.c51{
+	position: relative;
+	left: -152%;
+}
+.card.c52{
+	position: absolute;
+	z-index: 2;
+	top: -150px;
+}
+.card.c52{
+	position: relative;
+	left: -50%;
+}
+.card.c53{
+	position: absolute;
+	z-index: 2;
+	top: -110px;
+}
+.card.c53{
+	position: relative;
+	left: 52%;
+}
+.card.c51 .card-body.top{
+	background-color: color: rgb(250, 250, 250);
+}
+.card.c51 .card-body.top h3, .card.c53 .card-body.top h3{
+	color: rgb(97, 97, 97);
+}
+.container5 .card.c51 .card-body.top p, .card.c53 .card-body.top p{
+	color: rgb(243, 149, 149);
+}
+.container5 .list-group-item{
+	background-color: rgb(240, 240, 240);
+	color: rgb(133, 133, 133);
+}
+.card.c51 .card-body.bottom, .card.c53 .card-body.bottom{
+	background-color: rgb(97, 97, 97);
+	color: rgb(250, 250, 250);
+}
+.card.c52 .card-body.top h3{
+	color: rgb(235, 79, 78);
+}
+.container5 .card.c52 .card-body.top p{
+	color: rgb(35, 35, 36);
+}
+.card.c52 .card-body.top{
+	position: relative;
+}
+.card.c52 .card-body.top p:last-child{
+	color: rgb(235, 79, 78);
+	font-size: 2rem;
+	position: absolute;
+	z-index: 5;
+	bottom: -1.5rem;
+	left: 8rem;
+}
+.card.c52 .card-body.bottom{
+	background-color: rgb(235, 79, 78);
+	color: rgb(250, 250, 250);
+}
+.container5 .mo{
+	margin-bottom: -0.5rem;
+}
+.d6{
+	padding: 1rem;
+}
+.d6, .d6 div a{
+	color: rgb(246, 173, 172);
+}
+.container7{
+	background-color: rgb(235, 79, 78);
+	padding-top: 1rem;
+}
+.container7 h3{
+	color: rgb(250, 250, 250);
+}
+.container7 .fab{
+	color: rgb(250, 250, 250);
+}
+.d72{
+	padding: 1rem;
+}
+.sp71{
+	color: rgb(82, 43, 44);
+}
+.sp72{
+	color: rgb(250, 250, 250);
+}
+.d73{
+	padding-bottom: 1rem;
+}
+.container8{
+	background-color: rgb(35, 35, 36);
+	padding-top: 1rem;
+}
+.sp81{
+	color: rgb(250, 250, 250);
+}
+.sp82, .d82{
+	color: rgb(235, 79, 78);
+}
+.container9{
+	height: 10rem;
+	background-image: url(Footer.jpg);
+	background-size: cover;
+	padding-top: 1.5rem;
+}
+.d91{	
+	background-color: rgb(53, 52, 52);
+	opacity: 0.9;   
+  	padding: 0.375rem 1rem;  	
+  	border-radius: 0.25rem;
+  	width: 60%;
+  	margin: auto;
+}
+@media (min-width: 768px) {
+	.d91{
+		width: 40%;
+	}
+}
+.d91:first-child{
+	color: rgb(250, 250, 250);
+	line-height: 2rem;
+	font-size: 1.5rem;
+}
+.d93, .d94{
+	font-family: 'Comfortaa';
+	font-size: 0.8rem;
+	color: rgb(235, 79, 78);
+	padding-top: 0.1rem;
+}
+.d94:hover{
+	color: rgb(250, 250, 250);
+}
